@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>الأسئلة الشائعة | استفسارات مظلات وسواتر وساندوتش بانل الرياض</title>
+    <meta name="description" content="إليك إجابات شاملة لجميع الأسئلة المتكررة حول أسعار تركيب المظلات، السواتر، الساندوتش بانل، ومدة التشييد ومواصفات الضمان في كافة مناطق الرياض.">
+    
+    <!-- تحسين التحميل المسبق للخطوط -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- ملف التنسيقات الموحد -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- تنسيقات مخصصة للأكورديون الذكي الفوري -->
+    <style>
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        details {
+            background-color: var(--dark2);
+            border: 1px solid rgba(201, 146, 42, 0.2);
+            border-radius: 8px;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        details[open] {
+            border-color: var(--gold);
+            box-shadow: 0 4px 15px rgba(201, 146, 42, 0.1);
+        }
+        summary {
+            padding: 1.1rem 1.25rem;
+            font-size: 1.05rem;
+            font-weight: 700;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+            color: var(--text);
+        }
+        summary::-webkit-details-marker {
+            display: none;
+        }
+        summary::after {
+            content: '▼';
+            font-size: 0.8rem;
+            color: var(--gold);
+            transition: transform 0.3s ease;
+        }
+        details[open] summary::after {
+            transform: rotate(180deg);
+        }
+        .faq-content {
+            padding: 1rem 1.25rem 1.5rem 1.25rem;
+            border-top: 1px solid rgba(240, 236, 224, 0.05);
+            color: var(--text2);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- الشريط الترويجي الموحد (Promo Bar) -->
+    <div class="promo-bar">
+        <span>🔥 خصم خاص للمتصلين الجدد عبر الموقع الإلكتروني اليوم! 🔥</span>
+    </div>
+
+    <!-- الهيدر الموحد وقائمة التنقل التفاعلية للجوال -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="gold-text">الرياض</span> للمظلات والحدادة
+            </a>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="قائمة التنقل">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li class="dropdown">
+                        <button class="dropdown-toggle" id="servicesDropdown" aria-haspopup="true" aria-expanded="false">
+                            خدماتنا <span class="arrow">▼</span>
+                        </button>
+                        <ul class="dropdown-menu" id="servicesMenu">
+                            <li><a href="canopies.html">تركيب المظلات</a></li>
+                            <li><a href="sandwich-panels.html">ساندوتش بانل</a></li>
+                            <li><a href="privacy-screens.html">تركيب السواتر</a></li>
+                            <li><a href="pergolas.html">البرجولات وجلسات الحدائق</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about-us.html">من نحن</a></li>
+                    <li><a href="faq.html" class="active">الأسئلة الشائعة</a></li>
+                    <li><a href="contact-us.html">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- قسم البطل الترويجي الداخلي (Service Hero Section) -->
+    <section class="hero-section" style="background-image: url('images/canopies%20(22)_result.webp');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="badge">إجابات فورية لاستفساراتكم</span>
+            <h1>الأسئلة الشائعة لخدمات المظلات والسواتر بالرياض</h1>
+            <p>جمعنا لك هنا أهم الأسئلة التي يطرحها عملؤنا باستمرار حول الأسعار، مدة التنفيذ، ومواصفات جودة الهياكل الحديدية والخامات.</p>
+        </div>
+    </section>
+
+    <!-- قسم الأكورديون للأسئلة الشائعة (FAQ Accordions) -->
+    <section class="inner-section">
+        <div class="faq-container">
+            
+            <!-- السؤال 1 -->
+            <details open>
+                <summary>كم سعر متر تركيب المظلات والسواتر بالرياض؟</summary>
+                <div class="faq-content">
+                    <p>تختلف الأسعار بناءً على نوع الخامات المستخدمة (حديد، قماش كوري أو ألماني، خشب بلاستيكي معالج) والمساحة المطلوبة وطريقة التثبيت. بشكل عام، تبدأ أسعار مظلات القماش من أسعار منافسة جداً للمتر المربع، بينما تختلف أسعار السواتر الخشبية والحديدية بحسب الارتفاع ونوع التصميم (مجدول أو شرايح). تواصل معنا للحصول على تسعيرة دقيقة ومباشرة.</p>
+                </div>
+            </details>
+
+            <!-- السؤال 2 -->
+            <details>
+                <summary>هل تقدمون خدمة المعاينة الميدانية ورفع القياسات مجاناً؟</summary>
+                <div class="faq-content">
+                    <p>نعم، بكل تأكيد! نحن نقدم خدمة المعاينة الميدانية ورفع المقاسات الدقيقة في كافة أحياء الرياض (شمال وشرق وغرب وجنوب ووسط العاصمة) مجاناً 100% دون تحميل العميل أي تكاليف إضافية، مع تقديم الاستشارة واقتراح التصميم المناسب مجاناً.</p>
+                </div>
+            </details>
+
+            <!-- السؤال 3 -->
+            <details>
+                <summary>ما هي فترة الضمان الممنوحة على أعمال المظلات والحدادة والساندوتش بانل؟</summary>
+                <div class="faq-content">
+                    <p>نحن واثقون من جودة خدماتنا، ولذلك نمنح وثيقة ضمان رسمية ومعتمدة تبدأ من 5 سنوات وتصل إلى 10 سنوات على كافة أعمالنا، ويشمل الضمان متانة الهياكل الحديدية، ثبات الألوان، ومقاومة تسريب مياه الأمطار أو التلف الناتج عن الرياح.</p>
+                </div>
+            </details>
+
+            <!-- السؤال 4 -->
+            <details>
+                <summary>كم يستغرق تركيب مظلة سيارة أو ساتر جداري بالمنزل؟</summary>
+                <div class="faq-content">
+                    <p>تستغرق أعمال التجهيز والتركيب للمشاريع المنزلية البسيطة (مظلات سيارات، سواتر جدران فيلا) ما بين يوم إلى يومين عمل كحد أقصى من تاريخ الاتفاق وتأكيد الطلب. أما المشاريع الكبيرة والساندوتش بانل فيتم تحديد مدة تنفيذها بدقة في العقد المبرم.</p>
+                </div>
+            </details>
+
+            <!-- السؤال 5 -->
+            <details>
+                <summary>ما هي مميزات الساندوتش بانل وما هي سماكاته المتاحة؟</summary>
+                <div class="faq-content">
+                    <p>يتميز الساندوتش بانل بعزله الصوتي والحراري الفائق بنسبة تتعدى 95%، وخفة وزنه ومقاومته للحرائق والصدأ ومياه الأمطار. نحن نوفر سماكات متعددة تناسب الملاحق والهناجر وغرف التبريد تبدأ من 3 سم، 5 سم، 7.5 سم، وحتى 10 سم حسب رغبة العميل واحتياجات المشروع.</p>
+                </div>
+            </details>
+
+        </div>
+    </section>
+
+    <!-- نموذج جمع البيانات التفاعلي الذكي (Lead Capturing Form) -->
+    <section id="lead-form-section" class="form-section">
+        <div class="form-wrapper">
+            <div class="form-header">
+                <h2>هل لديك سؤال آخر؟ تواصل معنا فوراً</h2>
+                <p>املاً النموذج السريع وسيتواصل معك الفني المختص فوراً لتقديم عرض السعر وتحديد موعد للمعاينة الميدانية المجانية.</p>
+            </div>
+            <form id="leadForm" class="interactive-form">
+                <div class="form-group">
+                    <label for="client_name">الاسم الكريم:</label>
+                    <input type="text" id="client_name" name="client_name" placeholder="مثال: أبو محمد" required>
+                </div>
+                <div class="form-group">
+                    <label for="client_phone">رقم الجوال (اتصال وواتساب):</label>
+                    <input type="tel" id="client_phone" name="client_phone" placeholder="05XXXXXXXX" pattern="05[0-9]{8}" required>
+                </div>
+                <div class="form-group">
+                    <label for="client_district">الحي أو منطقة السكن بالرياض:</label>
+                    <input type="text" id="client_district" name="client_district" placeholder="مثال: حي الصحافة أو شمال الرياض" required>
+                </div>
+                <div class="form-group">
+                    <label for="service_type">الخدمة المطلوبة:</label>
+                    <select id="service_type" name="service_type" required>
+                        <option value="" disabled selected>-- اختر نوع الخدمة المطلوبة --</option>
+                        <option value="مظلات سيارات وحدائق">مظلات سيارات وحدائق</option>
+                        <option value="ساندوتش بانل عازل">ساندوتش بانل عازل</option>
+                        <option value="سواتر جدران وفلل">سواتر جدران وفلل</option>
+                        <option value="برجولات وجلسات خارجية">برجولات وجلسات خارجية</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-submit" id="submitBtn">
+                    <span class="btn-text">إرسال الطلب عبر الواتساب وتأكيد المعاينة</span>
+                    <span class="btn-spinner hidden"></span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- الفوتر الموحد والمقسم لأعمدة (Multi-Column Footer) -->
+    <footer class="main-footer">
+        <div class="footer-columns-container">
+            <div class="footer-column branding-col">
+                <h3>عن مؤسستنا بالرياض</h3>
+                <p>نعمل بجهد واحترافية عالية لتلبية وتصميم كافة الاحتياجات الإنشائية من المظلات الحديدية والخشبية والسواتر وألواح الساندوتش بانل العازلة في الرياض بأعلى مواصفات الجودة.</p>
+                <div class="contact-quick-info">
+                    <p>📍 المقر الرئيسي: الرياض، المملكة العربية السعودية</p>
+                    <p>📞 هاتف مباشر: <a href="tel:0556492570" class="track-call">0556492570</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>روابط تهمك</h3>
+                <ul class="footer-links">
+                    <li><a href="canopies.html">تركيب مظلات وسواتر</a></li>
+                    <li><a href="sandwich-panels.html">ألواح ساندوتش بانل</a></li>
+                    <li><a href="privacy-screens.html">سواتر للفلل والبيوت</a></li>
+                    <li><a href="pergolas.html">برجولات خشبية وحديد</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>روابط سريعة</h3>
+                <ul class="footer-links">
+                    <li><a href="about-us.html">من نحن</a></li>
+                    <li><a href="faq.html">الأسئلة الشائعة</a></li>
+                    <li><a href="warranty.html">سياسة الضمان والجودة</a></li>
+                    <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+                    <li><a href="terms-conditions.html">الشروط والأحكام</a></li>
+                    <li><a href="contact-us.html">تواصل معنا</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- قسم أحياء الخدمة المستهدفة بالمنطقة لزيادة الثقة وتحسين السيو المحلي -->
+        <div class="footer-districts">
+            <h4>أحياء ومناطق الخدمة بالرياض:</h4>
+            <p>نقدم خدماتنا في كافة مناطق الرياض بما في ذلك: شمال الرياض (الياسمين، الصحافة، الملقا، العقيق)، شرق الرياض (الروضة، النسيم، السلي، الريان)، غرب الرياض (البديعة، الشفا، العريجاء)، جنوب الرياض، ووسط الرياض وجميع الضواحي والمحافظات المجاورة.</p>
+        </div>
+
+        <!-- حقوق التطوير والملكية الموجهة للرعد التقني -->
+        <div class="footer-copyright">
+            <p>© 2025 جميع الحقوق محفوظة لـ مؤسسة مظلات وسواتر الرياض.</p>
+            <p class="dev-credit">تصميم وتطوير حملات ومواقع: 
+                <a href="https://wa.me/966578539687?text=استفسار%20عن%20تطوير%20المواقع%20الإعلانية" target="_blank" rel="noopener noreferrer" class="dev-link">
+                    الرعد التقني للاستشارات التقنية والتسويقية
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- الأزرار العائمة الثابتة باليمين (الاتصال والواتساب) مع التنبيه النبضي التفاعلي -->
+    <div class="floating-right-actions">
+        <a href="tel:0556492570" class="float-btn float-call track-call" aria-label="اتصال هاتف مباشر">
+            <span class="float-icon">📞</span>
+            <span class="float-tooltip">اتصل الآن</span>
+        </a>
+        <a href="https://wa.me/966556492570" class="float-btn float-whatsapp track-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="مراسلة عبر واتساب">
+            <span class="float-icon">💬</span>
+            <span class="float-tooltip">مراسلة واتساب</span>
+        </a>
+    </div>
+
+    <!-- زر الصعود للأعلى باليسار -->
+    <button id="scrollToTopBtn" class="scroll-to-top" aria-label="الرجوع للأعلى">▲</button>
+
+    <!-- ملف التتبع والتشغيل المركزي الموحد -->
+    <script src="script.js" defer></script>
+</body>
+</html>
