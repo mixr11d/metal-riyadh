@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- الصفحة الرئيسية -->
+    <url>
+        <loc>https://canopies-riyadh.com/index.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.00</priority>
+    </url>
+    <!-- صفحة المظلات -->
+    <url>
+        <loc>https://canopies-riyadh.com/canopies.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <!-- صفحة ساندوتش بانل -->
+    <url>
+        <loc>https://canopies-riyadh.com/sandwich-panels.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <!-- صفحة السواتر -->
+    <url>
+        <loc>https://canopies-riyadh.com/privacy-screens.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <!-- صفحة البرجولات -->
+    <url>
+        <loc>https://canopies-riyadh.com/pergolas.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    <!-- صفحة من نحن -->
+    <url>
+        <loc>https://canopies-riyadh.com/about-us.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.50</priority>
+    </url>
+    <!-- صفحة تواصل معنا -->
+    <url>
+        <loc>https://canopies-riyadh.com/contact-us.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.50</priority>
+    </url>
+    <!-- صفحة الأسئلة الشائعة -->
+    <url>
+        <loc>https://canopies-riyadh.com/faq.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.50</priority>
+    </url>
+    <!-- صفحة سياسة الخصوصية -->
+    <url>
+        <loc>https://canopies-riyadh.com/privacy-policy.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.30</priority>
+    </url>
+    <!-- صفحة الشروط والأحكام -->
+    <url>
+        <loc>https://canopies-riyadh.com/terms-conditions.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.30</priority>
+    </url>
+    <!-- صفحة الضمان والجودة -->
+    <url>
+        <loc>https://canopies-riyadh.com/warranty.html</loc>
+        <lastmod>2025-02-15</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.30</priority>
+    </url>
+</urlset>
