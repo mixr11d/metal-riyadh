@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-# خريطة الموقع المستهدفة للأرشفة المباشرة
-Sitemap: https://canopies-riyadh.com/sitemap.xml
+# خريطة الموقع المحدثة لنطاق كلاود فلير المجاني
+Sitemap: https://metal-riyadh.pages.dev/sitemap.xml
