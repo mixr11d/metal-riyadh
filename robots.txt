@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# خريطة الموقع المستهدفة للأرشفة المباشرة
+Sitemap: https://canopies-riyadh.com/sitemap.xml
