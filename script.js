@@ -7,7 +7,7 @@
 // أولاً: متغيرات تكوين حملة جوجل الإعلانية (Google Ads Setup)
 // يمكن تعديل هذه القيم مباشرة عند إطلاق الحملة لتفعيل التتبع التلقائي
 // ==========================================
-const GOOGLE_ADS_ID = "";               // ضع هنا معرّف التتبع الخاص بك مثل: AW-123456789
+const GOOGLE_ADS_ID = "AW-18339402313";               // ضع هنا معرّف التتبع الخاص بك مثل: AW-123456789
 const CALL_CONVERSION_LABEL = "VU9DCMeCm9QcEMmk9KhE";       // ملصق تحويل الاتصال الهاتفي (مثال: abCdEfGhIjKlMnOpQ)
 const WHATSAPP_CONVERSION_LABEL = "F88zCPS-l9QcEMmk9KhE";   // ملصق تحويل نقرات الواتساب (مثال: opQrStUvWxYzAbCdE)
 const FORM_CONVERSION_LABEL = "UdPXCITygNQcEMmk9KhE";       // ملصق تحويل نموذج البيانات (مثال: yZAbCdEfGhIjKlMnOp)
