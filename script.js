@@ -8,9 +8,9 @@
 // يمكن تعديل هذه القيم مباشرة عند إطلاق الحملة لتفعيل التتبع التلقائي
 // ==========================================
 const GOOGLE_ADS_ID = "";               // ضع هنا معرّف التتبع الخاص بك مثل: AW-123456789
-const CALL_CONVERSION_LABEL = "";       // ملصق تحويل الاتصال الهاتفي (مثال: abCdEfGhIjKlMnOpQ)
-const WHATSAPP_CONVERSION_LABEL = "";   // ملصق تحويل نقرات الواتساب (مثال: opQrStUvWxYzAbCdE)
-const FORM_CONVERSION_LABEL = "";       // ملصق تحويل نموذج البيانات (مثال: yZAbCdEfGhIjKlMnOp)
+const CALL_CONVERSION_LABEL = "VU9DCMeCm9QcEMmk9KhE";       // ملصق تحويل الاتصال الهاتفي (مثال: abCdEfGhIjKlMnOpQ)
+const WHATSAPP_CONVERSION_LABEL = "F88zCPS-l9QcEMmk9KhE";   // ملصق تحويل نقرات الواتساب (مثال: opQrStUvWxYzAbCdE)
+const FORM_CONVERSION_LABEL = "UdPXCITygNQcEMmk9KhE";       // ملصق تحويل نموذج البيانات (مثال: yZAbCdEfGhIjKlMnOp)
 
 const CLIENT_PHONE = "0556492570";      // رقم العميل الإعلاني الأساسي المستهدف بالتتبع
 const DEV_PHONE = "0578539687";         // رقم المطور الرعد التقني (يتم استبعاده تلقائياً من التتبع)
